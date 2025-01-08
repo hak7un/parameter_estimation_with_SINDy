@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/kimm/simulation_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/kimm/simulation_ws/src/franka_single_launch/include/**",
+        "/home/kimm/simulation_ws/src/kimm_hqp_controller/include/**",
+        "/home/kimm/simulation_ws/src/kimm_qpoases/include/**",
+        "/home/kimm/simulation_ws/src/kimm_trajectory_smoother/include/**",
+        "/home/kimm/simulation_ws/src/kimm_mujoco_ros/mujoco_ros/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
