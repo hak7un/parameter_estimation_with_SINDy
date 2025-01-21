@@ -8,7 +8,7 @@ from a_expected import expected
 name = 'train'
 
 t, data = measurement(name)
-_, expdata = expected(name, 'obj1_1')  # 데이터 #물체종류 #lpf
+_, expdata = expected(name, 'obj1_1')  # 데이터 #물체종류
 minusdata = data - expdata
 
 X = np.stack((data[0], data[1], data[2], data[3], data[4], data[5]), axis=-1)
